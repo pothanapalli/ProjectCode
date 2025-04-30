@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''
           mkdir -p /var/www/html/pothanapalli
-          cp Devcode.html /var/www/html/pothanapalli/index.html
+          cp DevopsProjectCode.html /var/www/html/pothanapalli/index.html
         '''
       }
     }
